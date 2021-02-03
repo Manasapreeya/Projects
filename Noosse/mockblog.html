@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog layout</title>
+<!-- <link rel="stylesheet" type="text/css" href="mockblog.css"> -->
+<style type="text/css">
+	body{
+	font-family: Arial;
+	margin:0;
+	padding:20px;
+	background-color: #f1f1f1;
+}
+*{
+	box-sizing: border-box;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header{
+	background-color: #ffffff;
+	padding:30px;
+}
+header h1{
+	text-align: center;
+	font-size:60px;
+	color:#000000;
+	margin:1.5 0px;
+}
+
+h2{
+	color:#000000;
+margin:1.5 0px;	
+}
+.left-column{
+float: left;
+width: 75%;	
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.card{
+	padding: 20px;
+	background-color: #ffffff;
+ margin-top:20px;
+}
+
+.card img{
+	width: 100%;
+}
+
+
+.right-column .card img{
+	margin-bottom: 10px;
+}
+
+
+/*footer{
+	background-color: #dddddd;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}*/
+
+/*responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+
+
+</style>
+<body>
+<div class="bodyblog blogall">
+ <div class="row">
+ 	<div class="left-column">
+ 	  <div class="card">
+ 		<h2 class="blogh2">TITLE HEADING</h2>
+ 		<h5>Title description, Dec 7, 2017</h5>
+ 		<img src="https://images.unsplash.com/photo-1519337718347-749509f114a8?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDR8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="blog "/>
+ 		<p>Some text..</p>
+ 		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+ 	  </div>
+ 	  <div class="card">
+ 		<h2 class="blogh2">TITLE HEADING</h2>
+ 		<h5>Title description, Dec 7, 2017</h5>
+ 		<img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="blog "/>
+ 		<p>Some text..</p>
+ 		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+ 	  </div>
+ 	</div>
+
+ 	<div class="right-column">
+ 		<div class="card">
+ 			 <h2 class="blogh2">About Me</h2>
+ 			 <img src="https://images.unsplash.com/photo-1529119651565-dc15bd8c75fd?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="me"/>
+ 			 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+ 		</div>
+ 		<div class="card">
+ 			 <h3>Popular Post</h3>
+ 			 <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIwfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="popular"/>
+ 			 <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDEzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="popular"/>
+ 			 <img src="https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDd8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="popular"/>
+ 		</div>
+ 		<div class="card">
+ 			<h3>Follow Me</h3>
+ 			<p>Some Text...</p>
+ 		</div>
+ 	</div>
+ </div>
+
+</div>
+
+</body>
+</head>

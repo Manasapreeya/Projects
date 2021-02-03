@@ -1,0 +1,33 @@
+.custom-nav{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+.custom-div{
+    height: 5px;
+    background: rgb(149,136,136);
+background: linear-gradient(90deg, rgba(149,136,136,1) 0%, rgba(47,47,223,1) 20%, rgba(17,65,148,1) 40%, rgba(45,77,113,1) 57%, rgba(11,123,158,1) 79%, rgba(11,50,58,1) 100%);
+    }
+.contentabout{
+    margin-bottom: 5%;
+    }
+.banner{
+    /*margin-top: 6.5%;*/
+    /*margin-top: 10%;*/
+    padding-top: 150px;
+    /*padding-bottom: 100px;*/
+    line-height: 2%;
+    background: url('https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAzfHxibG9nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60') no-repeat;
+    background-size: cover;
+    /*opacity: 0.9;*/
+    color: black;
+    width: 100%;
+    height: 400px;
+}
+.bb{
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
